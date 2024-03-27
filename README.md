@@ -1,6 +1,23 @@
-# Project Name
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+# Project Name
+
+## SimpleStorage With Solidity Using Foundry
+This project demonstrates a basic smart contract written in Solidity for the Ethereum blockchain. The contract allows users to store and retrieve a single piece of data called storedData.
+
+## Features:
+
+- Stores a uint256 value (storedData).
+- Tracks the number of times the data has been modified (callCount).
+- Provides functions to:
+    - Set the stored data (set(uint256)).
+    - Retrieve the current data value (get()).
+    - Get the call count (getCallCount()).
+    - Increment the stored data by a specific amount (increment(uint256)) (all functions are free to
+    call, no Ether required).
+- Emits a ValueChanged event whenever the stored data is modified.
 
 ## Getting Started
 
