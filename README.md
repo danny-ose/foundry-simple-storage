@@ -42,7 +42,7 @@ If you can't or don't want to run and install locally, you can work with this re
 
     ```bash
     git clone https://github.com/dev-ose/foundry-simple-storage
-    cd foundry-simple-storage-f23
+    cd foundry-simple-storage
     ```
 
 2. **Run your ganache local chain:**
